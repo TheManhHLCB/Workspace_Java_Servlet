@@ -1,0 +1,1 @@
+<%-- Trang JSP hiển thị danh sách khách hàng --%>

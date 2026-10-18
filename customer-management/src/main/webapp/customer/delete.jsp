@@ -1,0 +1,1 @@
+<%-- Trang JSP xác nhận xóa khách hàng --%>

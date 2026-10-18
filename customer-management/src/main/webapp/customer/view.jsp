@@ -1,0 +1,1 @@
+<%-- Trang JSP hiển thị chi tiết thông tin một khách hàng --%>
