@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.codegym</groupId>
-    <artifactId>user-management</artifactId>
+    <artifactId>user-management-updated</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -44,7 +44,7 @@
     </dependencies>
 
     <build>
-        <finalName>user-management</finalName>
+        <finalName>user-management-updated</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -3,10 +3,14 @@ package com.codegym.dao;
 import com.codegym.model.User;
 import java.util.List;
 
-/**
- * Interface định nghĩa các phương thức thao tác CSDL (CRUD) cho User.
- * YÊU CẦU: Sinh viên tự khai báo các phương thức (insertUser, selectUser, selectAllUsers, deleteUser, updateUser).
- */
 public interface IUserDAO {
-    // TODO: Định nghĩa các phương thức tại đây
+    public void insertUser(User user) throws Exception;
+    public User selectUser(int id);
+    public List<User> selectAllUsers();
+    public boolean deleteUser(int id) throws Exception;
+    public boolean updateUser(User user) throws Exception;
+    
+    // Yêu cầu bài tập: Tìm kiếm và sắp xếp
+    public List<User> searchByCountry(String country);
+    public List<User> sortByName();
 }
